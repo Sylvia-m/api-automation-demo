@@ -18,11 +18,11 @@ jobs:
     steps:
       # 第 1 步：把仓库代码拉到这台云主机上
       - name: 拉取代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # 第 2 步：安装指定版本的 Python
       - name: 安装 Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.13"
 
