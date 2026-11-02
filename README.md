@@ -1,5 +1,7 @@
 # api-automation-demo
 
+![API Tests](https://github.com/Sylvia-m/api-automation-demo/actions/workflows/test.yml/badge.svg)
+
 接口自动化测试入门 demo：Python + requests + pytest + Flask mock server。
 
 测试跑在**本地 mock 服务器**（127.0.0.1:5001）上，不依赖外网，稳定且速度快。
