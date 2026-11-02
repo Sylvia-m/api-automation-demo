@@ -1,0 +1,10 @@
+# 虚拟环境不进 Git
+venv/
+
+# pytest 缓存和 Python 编译产物
+__pycache__/
+.pytest_cache/
+
+# IDE 配置
+.idea/
+.vscode/
